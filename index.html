@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+    <form id="task-form">
+        <label for="nama-tugas">Nama Tugas</label>
+        <br>
+        <input type="text" id="nama-tugas" name="nama-tugas" placeholder="Masukkan nama tugas" required>
+        <br> <br>
+
+        <label for="deskripsi-tugas">Deskripsi Tugas</label>
+        <br>
+        <input type="text" id="deskripsi-tugas" deskripsi="deskripsi-tugas" placeholder="Masukkan deskripsi tugas" required>
+        <br> <br>
+
+        <label for="deadline-tugas">Deadline Tugas</label>
+        <br>
+        <input type="text" id="deadline-tugas" deadline="deadline-tugas" placeholder="dd/mm/yyyy" required>
+        <br>
+
+        <button style="background-color:green; color:white" type="submit">Tambahkan</button>
+        <br> <br>
+
+        <h3>Daftar Tugas:</h3>
+        <div id="task-list"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
